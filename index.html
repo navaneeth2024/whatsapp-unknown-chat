@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Unknown Chat</title>
+    <link rel="icon" href="whatsapp-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>WhatsApp Unknown Chat</h2>
+    </nav>
+    <div class="main">
+        <h3>How to use</h3>
+        <label for="wa-number" id="wa-number-label">Enter full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.</label>
+        <p id="wa-number-label">Examples :<br>Use: 91XXXXXXXXXX <br>Don't use: +91-(XXX)XXXXXXX</p>
+        <input type="text" id="wa-number" placeholder="Enter number" maxlength="15" oninput="numCheck()">
+        <button type="button" id="chat-btn" onclick="chatRedirect()"><img src="WhatsAppButtonGreenLarge.svg" alt="WhatsAppButtonGreenLarge" border="0"></button>
+    </div>
+</body>
+</html>
