@@ -1,6 +1,6 @@
 ## WhatsApp Unknown Chat Webpage
 
-This project provides a simple web page that allows users to initiate a WhatsApp chat with an unknown number without saving it to their contacts.
+This website provides a simple way that allows users to initiate a WhatsApp chat with an unknown number without saving it to their contacts.
 
 ---
 
